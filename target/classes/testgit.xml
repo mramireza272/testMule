@@ -17,6 +17,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
         <logger message="-----segundoLogger-----" level="INFO" doc:name="Logger"/>
         <logger message="----tercero----" level="INFO" doc:name="Logger"/>
         <logger message="---cuarto----" level="INFO" doc:name="Logger"/>
+        <logger message="---quinto--" level="INFO" doc:name="Logger"/>
         <json:object-to-json-transformer doc:name="Object to JSON"/>
     </flow>
 </mule>
