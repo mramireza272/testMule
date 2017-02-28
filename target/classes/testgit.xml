@@ -15,6 +15,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
         <set-payload value="#[{&quot;test&quot;:&quot;test&quot;}]" doc:name="Set Payload"/>
         <logger message="#[payload]" level="INFO" doc:name="Logger"/>
         <logger message="-----segundoLogger-----" level="INFO" doc:name="Logger"/>
+        <logger message="----tercero----" level="INFO" doc:name="Logger"/>
         <json:object-to-json-transformer doc:name="Object to JSON"/>
     </flow>
 </mule>
